@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/fastred/SloppySwiper/blob/master/LICENSE)
 
 
-`SloppySwiper` is a `UINavigationController` delegate that allows swipe back gesture to be started from anywhere on the screen (not only from the left edge).This repo has fix [`hidesBottomBarWhenPushed` isn't animated properly] issue.
+`SloppySwiper` is a `UINavigationController` delegate that allows swipe back gesture to be started from anywhere on the screen (not only from the left edge).This repo has fix [`hidesBottomBarWhenPushed` isn't animated properly](https://github.com/fastred/SloppySwiper/issues/2) issue.
 
 ### Note
 * the library recreates the default pop animation, so it doesn't look exactly the same as when `interactivePopGestureRecognizer` is used:
