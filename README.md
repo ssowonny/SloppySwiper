@@ -12,7 +12,7 @@
   - fix [`hidesBottomBarWhenPushed` isn't animated properly](https://github.com/fastred/SloppySwiper/issues/2)
 * the gesture can collide with other *pan to the right* gestures
 
-![Demo GIF](https://raw.githubusercontent.com/fastred/SloppySwiper/master/demo.gif)
+![Demo GIF](https://github.com/yinnieryou/SloppySwiper/blob/master/SloppySwiper.gif)
 
 ## Usage
 
