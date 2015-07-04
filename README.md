@@ -1,18 +1,18 @@
 # SloppySwiper
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/fastred/SloppySwiper/blob/master/LICENSE)
-[![CocoaPods](https://img.shields.io/cocoapods/v/SloppySwiper.svg?style=flat)](https://github.com/fastred/SloppySwiper)
 
-`SloppySwiper` is a `UINavigationController` delegate that allows swipe back gesture to be started from anywhere on the screen (not only from the left edge).
+
+`SloppySwiper` is a `UINavigationController` delegate that allows swipe back gesture to be started from anywhere on the screen (not only from the left edge).This repo has fix [`hidesBottomBarWhenPushed` isn't animated properly](https://github.com/fastred/SloppySwiper/issues/2) issue.
 
 ### Note
 * the library recreates the default pop animation, so it doesn't look exactly the same as when `interactivePopGestureRecognizer` is used:
   - cross dissolve animation is used in the navigation bar (instead of the back button movement)
   - the animation tends to be glitchy on the iOS Simulator, but it's fine on the device
-  - [`hidesBottomBarWhenPushed` isn't animated properly](https://github.com/fastred/SloppySwiper/issues/2)
+  - fix [`hidesBottomBarWhenPushed` isn't animated properly](https://github.com/fastred/SloppySwiper/issues/2)
 * the gesture can collide with other *pan to the right* gestures
 
-![Demo GIF](https://raw.githubusercontent.com/fastred/SloppySwiper/master/demo.gif)
+![Demo GIF](https://github.com/yinnieryou/SloppySwiper/blob/master/SloppySwiper.gif)
 
 ## Usage
 
@@ -27,21 +27,10 @@ self.swiper = [[SloppySwiper alloc] initWithNavigationController:navigationContr
 navigationController.delegate = self.swiper;
 ```
 
-## Demo
-
-To run the example project; clone the repo, and run `pod install` from the Example directory first. Alternatively, run ```pod try SloppySwiper``` from the command line.
-
 ## Requirements
 
 * iOS 7
 * ARC
-
-## Installation
-
-SloppySwiper is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "SloppySwiper"
 
 ## Author
 
