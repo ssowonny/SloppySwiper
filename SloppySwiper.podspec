@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
-  s.source_files = 'Classes'
-  s.public_header_files = 'Classes/*.h'
+  s.source_files = 'SloppySwiper/Classes'
+  s.public_header_files = 'SloppySwiper/Classes/*.h'
 end
